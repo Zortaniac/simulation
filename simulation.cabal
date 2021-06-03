@@ -1,0 +1,159 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           simulation
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/simulation21#readme>
+author:         Hannes Feldt
+maintainer:     Hannes Feldt
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable cellular-automaton-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      cellular-automaton
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , base >=4.7 && <4.14
+    , colour
+    , data-default-class
+    , grid
+    , lens
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation14-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation14
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , base >=4.7 && <4.14
+    , colour
+    , data-default-class
+    , grid
+    , lens
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation16-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation16
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , base >=4.7 && <4.14
+    , colour
+    , data-default-class
+    , grid
+    , lens
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation21-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation21
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , base >=4.7 && <4.14
+    , colour
+    , data-default-class
+    , grid
+    , lens
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation22-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation22
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , base >=4.7 && <4.14
+    , colour
+    , data-default-class
+    , grid
+    , lens
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation23-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation23
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , base >=4.7 && <4.14
+    , colour
+    , data-default-class
+    , grid
+    , lens
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , vector
+    , vector-split
+  default-language: Haskell2010

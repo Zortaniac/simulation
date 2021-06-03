@@ -1,0 +1,81 @@
+name:                simulation
+version:             0.1.0.0
+author:              "Hannes Feldt"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/githubuser/simulation21#readme>
+
+dependencies:
+- base >= 4.7 && < 4.14
+- Chart
+- Chart-diagrams
+- colour
+- data-default-class
+- lens
+- random >= 1.2
+- random-fu
+- mwc-random
+- grid
+- vector-split
+- vector
+- JuicyPixels
+- split
+
+executables:
+  simulation14-exe:
+    main:                Main.hs
+    source-dirs:         simulation14
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  simulation16-exe:
+    main:                Main.hs
+    source-dirs:         simulation16
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  simulation21-exe:
+    main:                Main.hs
+    source-dirs:         simulation21
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  simulation22-exe:
+    main:                Main.hs
+    source-dirs:         simulation22
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  simulation23-exe:
+    main:                Main.hs
+    source-dirs:         simulation23
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  cellular-automaton-exe:
+    main:                Main.hs
+    source-dirs:         cellular-automaton
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
