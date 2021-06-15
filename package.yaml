@@ -23,8 +23,11 @@ dependencies:
 - lens
 - random >= 1.2
 - random-fu
+- statistics
 - mwc-random
+- transformers
 - grid
+- mtl
 - vector-split
 - vector
 - JuicyPixels
@@ -74,6 +77,22 @@ executables:
   cellular-automaton-exe:
     main:                Main.hs
     source-dirs:         cellular-automaton
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  simulation31-exe:
+    main:                Main.hs
+    source-dirs:         simulation31
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+  simulation32-exe:
+    main:                Main.hs
+    source-dirs:         simulation32
     ghc-options:
     - -threaded
     - -rtsopts
