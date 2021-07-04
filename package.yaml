@@ -94,7 +94,47 @@ executables:
     main:                Main.hs
     source-dirs:         simulation32
     ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+
+  simulation41-exe:
+    main:                Main.hs
+    source-dirs:         simulation41
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+
+  simulation42-exe:
+    main:                Main.hs
+    source-dirs:         simulation42
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+
+  simulation43-exe:
+    main:                Main.hs
+    source-dirs:         simulation43
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+
+  simulation44-exe:
+    main:                Main.hs
+    source-dirs:         simulation44
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+
+  simulation45-exe:
+    main:                Main.hs
+    source-dirs:         simulation45
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
 
