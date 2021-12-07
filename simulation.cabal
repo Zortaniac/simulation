@@ -25,9 +25,13 @@ executable cellular-automaton-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -52,9 +56,13 @@ executable simulation14-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -79,9 +87,13 @@ executable simulation16-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -106,9 +118,13 @@ executable simulation21-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -133,9 +149,13 @@ executable simulation22-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -160,9 +180,13 @@ executable simulation23-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -187,9 +211,13 @@ executable simulation31-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -214,9 +242,13 @@ executable simulation32-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -241,9 +273,13 @@ executable simulation41-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -268,9 +304,13 @@ executable simulation42-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -295,9 +335,13 @@ executable simulation43-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -322,9 +366,13 @@ executable simulation44-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
@@ -349,9 +397,106 @@ executable simulation45-exe
       Chart
     , Chart-diagrams
     , JuicyPixels
+    , SVGFonts
     , base >=4.7 && <4.14
     , colour
+    , criterion
     , data-default-class
+    , diagrams-lib
+    , diagrams-svg
+    , grid
+    , lens
+    , mtl
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , statistics
+    , transformers
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation51-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation51
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , SVGFonts
+    , base >=4.7 && <4.14
+    , colour
+    , criterion
+    , data-default-class
+    , diagrams-lib
+    , diagrams-svg
+    , grid
+    , lens
+    , mtl
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , statistics
+    , transformers
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation52-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation52
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , SVGFonts
+    , base >=4.7 && <4.14
+    , colour
+    , criterion
+    , data-default-class
+    , diagrams-lib
+    , diagrams-svg
+    , grid
+    , lens
+    , mtl
+    , mwc-random
+    , random >=1.2
+    , random-fu
+    , split
+    , statistics
+    , transformers
+    , vector
+    , vector-split
+  default-language: Haskell2010
+
+executable simulation53-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_simulation
+  hs-source-dirs:
+      simulation53
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Chart
+    , Chart-diagrams
+    , JuicyPixels
+    , SVGFonts
+    , base >=4.7 && <4.14
+    , colour
+    , criterion
+    , data-default-class
+    , diagrams-lib
+    , diagrams-svg
     , grid
     , lens
     , mtl
